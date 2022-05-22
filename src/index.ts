@@ -1,4 +1,4 @@
-let prom, nt1, nt2, nt3, sumaNota: number;
+let promedio, nt1, nt2, nt3: number;
 
 let nombre = prompt("Ingrese el nombre del Alumno");
 console.log("Alumno :" + nombre);
@@ -14,7 +14,7 @@ while (nombre !== "") {
   );
 
   if (nt1 > -1 && nt2 > -1 && nt3 > -1 && nt1 <= 10 && nt2 <= 10 && nt3 <= 10) {
-    prom = console.log(
+    promedio = console.log(
       "Promedio de",
       nombre,
       "es",
